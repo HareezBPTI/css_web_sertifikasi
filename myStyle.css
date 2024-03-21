@@ -4,3 +4,15 @@ form i {
     margin-left: -30px;
     cursor: pointer;
 }
+
+.user-tab .active{
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.user-tab .active:hover{
+    --tw-text-opacity: 1;
+    color: rgb(230 230 230 / var(--tw-text-opacity));
+}
